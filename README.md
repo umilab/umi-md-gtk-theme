@@ -6,15 +6,15 @@ UMI ArcD a flat theme with transparent elements, base on Arc theme with "D" pick
 
 ##### UMI-ArcD
 
-![A screenshot of the UMI ArcD theme](http://i.imgur.com/Ph5ObOa.png)
+![A screenshot of the UMI ArcD theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-screenshot-20190511111010.png)
 
 ##### UMI-ArcD-Darker
 
-![A screenshot of the UMI ArcD-Darker theme](http://i.imgur.com/NC6dqyl.png)
+![A screenshot of the UMI ArcD-Darker theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-dr-screenshot-20190511111053.png)
 
 ##### UMI-ArcD-Dark
 
-![A screenshot of the UMI ArcD-Dark theme](http://i.imgur.com/5AGlCnA.png)
+![A screenshot of the UMI ArcD-Dark theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-d-screenshot-20190511110943.png)
 
 ## Installation
 
@@ -129,5 +129,5 @@ If you find a bug, please report it at https://github.com/umilinux/umi-arcd-them
 UMI ArcD is available under the terms of the GPL-3.0. See `COPYING` for details.
 
 ## Full Preview
-![A full screenshot of the UMI ArcD theme](http://i.imgur.com/tD1OBQ3.png)
-<sub>Screenshot Details: Icons: [UMI ArcD](https://github.com/umilinux/umi-mvx-icons) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
+![A full screenshot of the UMI ArcD theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-lde-screenshot-20190511112245.png)
+<sub>Screenshot Details: Icons: [UMI ArcD](https://github.com/umilinux/umi-mvx-icons) | [Wallpaper](https://wallpapers.cimiro.com/wp-content/uploads/sites/4/2019/01/background-beach-beautiful-207135-1.jpg) | Font: Futura Bk bt</sub>
