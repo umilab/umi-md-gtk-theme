@@ -20,18 +20,24 @@ UMI ArcX a flat theme with transparent elements, base on Arc theme with "X" pick
 
 ### Manual Installation
 
-To build the theme the follwing packages are required 
+To build the theme the following packages are required
 * `autoconf`
 * `automake`
+* `sassc` for GTK 3, Cinnamon, or GNOME Shell
 * `pkg-config` or `pkgconfig` for Fedora
-* `libgtk-3-dev` for Debian based distros or `gtk3-devel` for RPM based distros
 * `git` to clone the source directory
+* `optipng` for GTK 2, GTK 3, or XFWM
+* `inkscape` for GTK 2, GTK 3, or XFWM
+
+The following packages are optionally required
+* `gnome-shell`for auto-detecting the GNOME Shell version
+* `libgtk-3-dev` for Debian based distros or `gtk3-devel` for RPM based distros, for auto-detecting the GTK3 version
 
 **Note:** For distributions which don't ship separate development packages, just the GTK 3 package is needed instead of the `-dev` packages.
 
 For the theme to function properly, install the following
-* GNOME Shell 3.14 - 3.24, GTK 3.14 - 3.22
-* The `gnome-themes-standard` package
+* GNOME Shell 3.18 - 3.32, GTK 3.18 - 3.24
+* The `gnome-themes-extra` package
 * The murrine engine. This has different names depending on the distro.
   * `gtk-engine-murrine` (Arch Linux)
   * `gtk2-engines-murrine` (Debian, Ubuntu, elementary OS)
@@ -65,7 +71,10 @@ Other options to pass to autogen.sh are
     --disable-metacity         disable Metacity support
     --disable-unity            disable Unity support
     --disable-xfwm             disable XFWM support
+    --disable-plank                disable Plank theme support
+    --disable-openbox              disable Openbox support
 
+    --with-gnome-shell=<version>   build the gnome-shell theme for a specific version
     --with-gnome=<version>     build the theme for a specific GNOME version (3.14, 3.16, 3.18, 3.20, 3.22)
                                Note 1: Normally the correct version is detected automatically and this
                                option should not be needed.
@@ -91,28 +100,26 @@ from the cloned git repository, or
 ### UMI ArcX KDE
 A port of UMI ArcX for the Plasma 5 desktop with a few additions and extras. Available [here](https://github.com/PapirusDevelopmentTeam/arc-kde).
 
-### Arc Firefox theme
-A theme for Firefox is available at https://github.com/horst3180/arc-firefox-theme
-
 ### Arc icon theme
-The Arc icon theme is available at https://github.com/horst3180/arc-icon-theme
-
-### Chrome/Chromium theme
-To install the Chrome/Chromium theme go to the `extra/Chrome` folder and drag and drop the arc-theme.crx or arc-dark-theme.crx file into the Chrome/Chromium window. The source of the Chrome themes is located in the source "Chrome/arc-theme" folder.
+The Arc icon theme is available at https://github.com/NicoHood/arc-icon-theme
 
 ### Plank theme
-To install the Plank theme, copy the `extra/Arc-Plank` folder to `~/.local/share/plank/themes` or to `/usr/share/plank/themes` for system-wide use.
-Now open the Plank preferences window by executing `plank --preferences` from a terminal and select `Arc-Plank` as the theme.
+As of version `20180114` the plank theme will be installed along with the normal arc gtk theme. You can disable the install by passing `disable-plank` to the autogen command.
+Now open the Plank preferences window by executing `plank --preferences` from a terminal and select `Gtk+` as the theme.
+
+### FirefoxColor theme
+Arc color palettes for FirefoxColor testpilot project
+
+1.[Arc](https://color.firefox.com/?theme=XQAAAALsAAAAAAAAAABBqYhm849SCiazH1KEGccwS-xNVAWBveAusLC2VAlvlSjJ6UJSeqAgCYbdusEoPO6gs3O7v6uHbeft01vfMj--IcmWccV5ZVhbS5pAY21H4rQoo83UfS5UcAgLsFRnmMUloj0SFmW1HehCUMDfDxPPF1kUuA9qWMRgNi28lIsiXLMPZZcTMJdrmyjo335zNimxUcokvCK-KCKaas3H1WasbB4OVMJidW2cC2pVrAp_-pQmAA)
+
+2.[Arc-Dark](https://color.firefox.com/?theme=XQAAAALsAAAAAAAAAABBqYhm849SCiazH1KEGccwS-xNVAVYwOBtiY0uPWyYE7WQD-5SgdZ71r2F-lXEQxrGAEzv_buK8bCyok70SsUy0GeciWa6veHgAFpeOvR5esr0TgHrmzAVtbaluSV2pYGKFkF03u_F69WpX-5y0OWddI2Y12nn6XZrfhTCe6wjAGRgrpfgKzbG8oTgp9v362NBpHcLnPzzzzC_3PGq4PfhQJimy-2PSgzHFoG6322X_-hAUAA)
+
+3.[Arc-Darker](https://color.firefox.com/?theme=XQAAAALsAAAAAAAAAABBqYhm849SCiazH1KEGccwS-xNVAWBveAusLC2VAlvlSjJ6UJSeqAgCYbdusEoPO6gs3O7v6uHbeft01vfMkT1y4Tf1nzX1xYaRp0u6XBPage606lAwQt0F0O7Q6pf8R-lAjw8ljDMgG2fgvNk2K-ZUhapxWWNnKLb0LTrm1yLUWJYMgTx2cr9o4MWazvWLg9DPQcdumiH0qiUFROpAtIMassKweMS9iAEenpp0qT_Et_AAA)
 
 ### Arc-Dark for Ubuntu Software Center
 The Arc Dark theme for the Ubuntu Software Center by [mervick](https://github.com/mervick) can be installed from [here](https://github.com/mervick/arc-dark-software-center). It solves readability issues with Arc Dark and the Ubuntu Software Center.
 
 ## Troubleshooting
-
-If you use Ubuntu with a newer GTK/GNOME version than the one included by default (i.e Ubuntu 14.04 with GTK 3.14 or Ubuntu 15.04 with GTK 3.16, etc.) the prebuilt packages won't work properly and the theme has to be installed manually as described above.
-This is also true for other distros with a different GTK/GNOME version than the one included by default
-
---
 
 If you get artifacts like black or invisible backgrounds under Unity, disable overlay scrollbars with
 
@@ -128,4 +135,3 @@ UMI ArcX is available under the terms of the GPL-3.0. See `COPYING` for details.
 ## Full Preview
 ![A full screenshot of the Arc theme](http://i.imgur.com/tD1OBQ3.png)
 <sub>Screenshot Details: Icons: [Arc](https://github.com/umilinux/umi-arcx-theme) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
-
