@@ -1,20 +1,20 @@
-# UMI ArcX Theme
+# UMI ArcD Theme
 
-UMI ArcX a flat theme with transparent elements, base on Arc theme with "X" picked design, for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
+UMI ArcD a flat theme with transparent elements, base on Arc theme with "D" picked design, for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
 
-## UMI ArcX is available in three variants 
+## UMI ArcD is available in three variants 
 
-##### UMI-arcx
+##### UMI-ArcD
 
-![A screenshot of the UMI ArcX theme](http://i.imgur.com/Ph5ObOa.png)
+![A screenshot of the UMI ArcD theme](http://i.imgur.com/Ph5ObOa.png)
 
-##### UMI-arcx-darker
+##### UMI-ArcD-Darker
 
-![A screenshot of the UMI ArcX-Darker theme](http://i.imgur.com/NC6dqyl.png)
+![A screenshot of the UMI ArcD-Darker theme](http://i.imgur.com/NC6dqyl.png)
 
-##### UMI-arcx-Dark
+##### UMI-ArcD-Dark
 
-![A screenshot of the UMI ArcX-Dark theme](http://i.imgur.com/5AGlCnA.png)
+![A screenshot of the UMI ArcD-Dark theme](http://i.imgur.com/5AGlCnA.png)
 
 ## Installation
 
@@ -51,7 +51,7 @@ Install the theme with the following commands
 
 Clone the git repository with
 
-    git clone https://github.com/umilinux/umi-arcx-theme --depth 1 && cd arc-theme
+    git clone https://github.com/umilinux/umi-arcd-theme --depth 1 && cd umi-arcd-theme
 
 #### 2. Build and install the theme
 
@@ -61,9 +61,9 @@ Clone the git repository with
 Other options to pass to autogen.sh are
 
     --disable-transparency     disable transparency in the GTK3 theme
-    --disable-light            disable UMI ArcX Light support
-    --disable-darker           disable UMI ArcX Darker support
-    --disable-dark             disable UMI ArcX Dark support
+    --disable-light            disable UMI ArcD Light support
+    --disable-darker           disable UMI ArcD Darker support
+    --disable-dark             disable UMI ArcD Dark support
     --disable-cinnamon         disable Cinnamon support
     --disable-gnome-shell      disable GNOME Shell support
     --disable-gtk2             disable GTK2 support
@@ -81,9 +81,9 @@ Other options to pass to autogen.sh are
                                Note 2: For GNOME 3.24, use --with-gnome-version=3.22
                                (this works for now, the build system will be improved in the future)
 
-After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `UMI-ArcX`, `UMI-ArcX-Darker` or `UMI-ArcX-Dark` as Window/GTK+ theme and `UMI-ArcX` or `UMI-ArcX-Dark` as GNOME Shell/Cinnamon theme.
+After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `UMI-ArcD`, `UMI-ArcD-Darker` or `UMI-ArcD-Dark` as Window/GTK+ theme and `UMI-ArcD` or `UMI-ArcD-Dark` as GNOME Shell/Cinnamon theme.
 
-If the `--disable-transparency` option was used, the theme will be installed as `UMI-ArcX-solid`, `UMI-ArcX-Darker-solid` and `UMI-ArcX-Dark-solid`.
+If the `--disable-transparency` option was used, the theme will be installed as `UMI-ArcD-solid`, `UMI-ArcD-Darker-solid` and `UMI-ArcD-Dark-solid`.
 
 ## Uninstall
 
@@ -93,15 +93,15 @@ Run
 
 from the cloned git repository, or
 
-    sudo rm -rf /usr/share/themes/{UMI-ArcX,UMI-ArcX-Darker,UMI-ArcX-Dark}
+    sudo rm -rf /usr/share/themes/{UMI-ArcD,UMI-ArcD-Darker,UMI-ArcD-Dark}
 
 ## Extras
 
-### UMI ArcX KDE
-A port of UMI ArcX for the Plasma 5 desktop with a few additions and extras. Available [here](https://github.com/PapirusDevelopmentTeam/arc-kde).
+### UMI ArcD KDE
+A port of UMI ArcD for the Plasma 5 desktop with a few additions and extras. Available [here](https://github.com/PapirusDevelopmentTeam/arc-kde).
 
-### Arc icon theme
-The Arc icon theme is available at https://github.com/NicoHood/arc-icon-theme
+### UMI MVX icon theme
+The UMI ArcD icon theme is available at https://github.com/umilinux/umi-mvx-icons
 
 ### Plank theme
 As of version `20180114` the plank theme will be installed along with the normal arc gtk theme. You can disable the install by passing `disable-plank` to the autogen command.
@@ -116,22 +116,18 @@ Arc color palettes for FirefoxColor testpilot project
 
 3.[Arc-Darker](https://color.firefox.com/?theme=XQAAAALsAAAAAAAAAABBqYhm849SCiazH1KEGccwS-xNVAWBveAusLC2VAlvlSjJ6UJSeqAgCYbdusEoPO6gs3O7v6uHbeft01vfMkT1y4Tf1nzX1xYaRp0u6XBPage606lAwQt0F0O7Q6pf8R-lAjw8ljDMgG2fgvNk2K-ZUhapxWWNnKLb0LTrm1yLUWJYMgTx2cr9o4MWazvWLg9DPQcdumiH0qiUFROpAtIMassKweMS9iAEenpp0qT_Et_AAA)
 
-### Arc-Dark for Ubuntu Software Center
-The Arc Dark theme for the Ubuntu Software Center by [mervick](https://github.com/mervick) can be installed from [here](https://github.com/mervick/arc-dark-software-center). It solves readability issues with Arc Dark and the Ubuntu Software Center.
-
 ## Troubleshooting
 
 If you get artifacts like black or invisible backgrounds under Unity, disable overlay scrollbars with
 
     gsettings set com.canonical.desktop.interface scrollbar-mode normal
 
-
 ## Bugs
-If you find a bug, please report it at https://github.com/umilinux/umi-arcx-theme/issues
+If you find a bug, please report it at https://github.com/umilinux/umi-arcd-theme/issues
 
 ## License
-UMI ArcX is available under the terms of the GPL-3.0. See `COPYING` for details.
+UMI ArcD is available under the terms of the GPL-3.0. See `COPYING` for details.
 
 ## Full Preview
-![A full screenshot of the Arc theme](http://i.imgur.com/tD1OBQ3.png)
-<sub>Screenshot Details: Icons: [Arc](https://github.com/umilinux/umi-arcx-theme) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
+![A full screenshot of the UMI ArcD theme](http://i.imgur.com/tD1OBQ3.png)
+<sub>Screenshot Details: Icons: [UMI ArcD](https://github.com/umilinux/umi-mvx-icons) | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
