@@ -1,20 +1,20 @@
-# UMI ArcD Theme
+# UMI MD Theme
 
-UMI ArcD a flat theme with transparent elements, base on Arc theme with "D" picked design, for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
+UMI MD a flat theme with transparent elements, base on Arc theme with "D" picked design, for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
 
-## UMI ArcD is available in three variants 
+## UMI MD is available in three variants 
 
-##### UMI-ArcD
+##### UMI-MD
 
-![A screenshot of the UMI ArcD theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-screenshot-20190511111010.png)
+![A screenshot of the UMI MD theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-screenshot-20190511111010.png)
 
-##### UMI-ArcD-Darker
+##### UMI-MD-Darker
 
-![A screenshot of the UMI ArcD-Darker theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-dr-screenshot-20190511111053.png)
+![A screenshot of the UMI MD-Darker theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-dr-screenshot-20190511111053.png)
 
-##### UMI-ArcD-Dark
+##### UMI-MD-Dark
 
-![A screenshot of the UMI ArcD-Dark theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-d-screenshot-20190511110943.png)
+![A screenshot of the UMI MD-Dark theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-d-screenshot-20190511110943.png)
 
 ## Installation
 
@@ -51,7 +51,7 @@ Install the theme with the following commands
 
 Clone the git repository with
 
-    git clone https://github.com/umilinux/umi-arcd-theme --depth 1 && cd umi-arcd-theme
+    git clone https://github.com/umilinux/umi-md-gtk-theme --depth 1 && cd umi-md-gtk-theme
 
 #### 2. Build and install the theme
 
@@ -61,9 +61,9 @@ Clone the git repository with
 Other options to pass to autogen.sh are
 
     --disable-transparency     disable transparency in the GTK3 theme
-    --disable-light            disable UMI ArcD Light support
-    --disable-darker           disable UMI ArcD Darker support
-    --disable-dark             disable UMI ArcD Dark support
+    --disable-light            disable UMI MD Light support
+    --disable-darker           disable UMI MD Darker support
+    --disable-dark             disable UMI MD Dark support
     --disable-cinnamon         disable Cinnamon support
     --disable-gnome-shell      disable GNOME Shell support
     --disable-gtk2             disable GTK2 support
@@ -81,9 +81,9 @@ Other options to pass to autogen.sh are
                                Note 2: For GNOME 3.24, use --with-gnome-version=3.22
                                (this works for now, the build system will be improved in the future)
 
-After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `UMI-ArcD`, `UMI-ArcD-Darker` or `UMI-ArcD-Dark` as Window/GTK+ theme and `UMI-ArcD` or `UMI-ArcD-Dark` as GNOME Shell/Cinnamon theme.
+After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `UMI-MD`, `UMI-MD-Darker` or `UMI-MD-Dark` as Window/GTK+ theme and `UMI-MD` or `UMI-MD-Dark` as GNOME Shell/Cinnamon theme.
 
-If the `--disable-transparency` option was used, the theme will be installed as `UMI-ArcD-solid`, `UMI-ArcD-Darker-solid` and `UMI-ArcD-Dark-solid`.
+If the `--disable-transparency` option was used, the theme will be installed as `UMI-MD-solid`, `UMI-MD-Darker-solid` and `UMI-MD-Dark-solid`.
 
 ## Uninstall
 
@@ -93,15 +93,15 @@ Run
 
 from the cloned git repository, or
 
-    sudo rm -rf /usr/share/themes/{UMI-ArcD,UMI-ArcD-Darker,UMI-ArcD-Dark}
+    sudo rm -rf /usr/share/themes/{UMI-MD,UMI-MD-Darker,UMI-MD-Dark}
 
 ## Extras
 
-### UMI ArcD KDE
-A port of UMI ArcD for the Plasma 5 desktop with a few additions and extras. Available [here](https://github.com/PapirusDevelopmentTeam/arc-kde).
+### UMI MD KDE
+A port of UMI MD for the Plasma 5 desktop with a few additions and extras. Available [here](https://github.com/PapirusDevelopmentTeam/arc-kde).
 
-### UMI MVX icon theme
-The UMI ArcD icon theme is available at https://github.com/umilinux/umi-mvx-icons
+### UMI MX icon theme
+The UMI MD icon theme is available at https://github.com/umilinux/umi-mx-icons
 
 ### Plank theme
 As of version `20180114` the plank theme will be installed along with the normal arc gtk theme. You can disable the install by passing `disable-plank` to the autogen command.
@@ -123,11 +123,11 @@ If you get artifacts like black or invisible backgrounds under Unity, disable ov
     gsettings set com.canonical.desktop.interface scrollbar-mode normal
 
 ## Bugs
-If you find a bug, please report it at https://github.com/umilinux/umi-arcd-theme/issues
+If you find a bug, please report it at https://github.com/umilinux/umi-md-gtk-theme/issues
 
 ## License
-UMI ArcD is available under the terms of the GPL-3.0. See `COPYING` for details.
+UMI MD is available under the terms of the GPL-3.0. See `COPYING` for details.
 
 ## Full Preview
-![A full screenshot of the UMI ArcD theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-lde-screenshot-20190511112245.png)
-<sub>Screenshot Details: Icons: [UMI ArcD](https://github.com/umilinux/umi-mvx-icons) | [Wallpaper](https://wallpapers.cimiro.com/wp-content/uploads/sites/4/2019/01/background-beach-beautiful-207135-1.jpg) | Font: Futura Bk bt</sub>
+![A full screenshot of the UMI MD theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-lde-screenshot-20190511112245.png)
+<sub>Screenshot Details: Icons: [UMI MD](https://github.com/umilinux/umi-mvx-icons) | [Wallpaper](https://wallpapers.cimiro.com/wp-content/uploads/sites/4/2019/01/background-beach-beautiful-207135-1.jpg) | Font: Futura Bk bt</sub>

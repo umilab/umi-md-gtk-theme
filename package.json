@@ -1,5 +1,5 @@
 {
-  "name": "umi-arcd-theme",
+  "name": "umi-md-gtk-theme",
   "version": "2.0.0",
   "devDependencies": {
     "gulp": "~3.9.1",

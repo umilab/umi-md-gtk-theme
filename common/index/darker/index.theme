@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=umi-arcd-darker
+Name=umi-md-darker
 Comment=A flat theme based on Arc with transparent elements and D picked design
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=umi-arcd-darker
-MetacityTheme=umi-arcd-darker
+GtkTheme=umi-md-darker
+MetacityTheme=umi-md-darker
 IconTheme=gnome
 CursorTheme=DMZ-Black
 ButtonLayout=menu:minimize,maximize,close
