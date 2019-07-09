@@ -51,7 +51,7 @@ Install the theme with the following commands
 
 Clone the git repository with
 
-    git clone https://github.com/umilinux/umi-md-gtk-theme --depth 1 && cd umi-md-gtk-theme
+    git clone https://github.com/umilab/umi-md-gtk-theme --depth 1 && cd umi-md-gtk-theme
 
 #### 2. Build and install the theme
 
@@ -101,7 +101,7 @@ from the cloned git repository, or
 A port of UMI MD for the Plasma 5 desktop with a few additions and extras. Available [here](https://github.com/PapirusDevelopmentTeam/arc-kde).
 
 ### UMI MX icon theme
-The UMI MD icon theme is available at https://github.com/umilinux/umi-mx-icons
+The UMI MD icon theme is available at https://github.com/umilab/umi-mx-icons
 
 ### Plank theme
 As of version `20180114` the plank theme will be installed along with the normal arc gtk theme. You can disable the install by passing `disable-plank` to the autogen command.
@@ -123,11 +123,11 @@ If you get artifacts like black or invisible backgrounds under Unity, disable ov
     gsettings set com.canonical.desktop.interface scrollbar-mode normal
 
 ## Bugs
-If you find a bug, please report it at https://github.com/umilinux/umi-md-gtk-theme/issues
+If you find a bug, please report it at https://github.com/umilab/umi-md-gtk-theme/issues
 
 ## License
 UMI MD is available under the terms of the GPL-3.0. See `COPYING` for details.
 
 ## Full Preview
 ![A full screenshot of the UMI MD theme](http://tnga.github.io/sharedbazar/_assets/images/umi-mvx-dee-lde-screenshot-20190511112245.png)
-<sub>Screenshot Details: Icons: [UMI MD](https://github.com/umilinux/umi-mvx-icons) | [Wallpaper](https://wallpapers.cimiro.com/wp-content/uploads/sites/4/2019/01/background-beach-beautiful-207135-1.jpg) | Font: Futura Bk bt</sub>
+<sub>Screenshot Details: Icons: [UMI MD](https://github.com/umilab/umi-mvx-icons) | [Wallpaper](https://wallpapers.cimiro.com/wp-content/uploads/sites/4/2019/01/background-beach-beautiful-207135-1.jpg) | Font: Futura Bk bt</sub>
